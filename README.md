@@ -1,126 +1,102 @@
 <div align="center">
 
-<img src="./banner.png" width="100%" alt="Anjali Banner"/>
+<img src="assets/banner.png" alt="Anjali D. Sangode — Embedded Firmware Engineer" width="100%"/>
 
-# Hi there 👋 I'm Anjali
+<img src="assets/hero-status.svg" width="640"/>
 
-### 💜 Embedded Firmware Engineer | ESP32 | Nordic | STM32 | Zephyr RTOS
+<br/><br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Poppins&size=24&pause=1000&center=true&vCenter=true&width=700&color=BB86FC&lines=Code.+Debug.+Innovate.+Repeat.;Embedded+Firmware+Engineer;ESP32+%7C+Nordic+%7C+STM32;IoT+Developer;Always+Learning+New+Things"/>
+<a href="https://github.com/20Anjali"><img src="https://img.shields.io/badge/GitHub-20Anjali-0d0620?style=flat-square&logo=github&logoColor=e7e2f5" /></a>
+<a href="https://linkedin.com/in/anjali-sangode-620766168"><img src="https://img.shields.io/badge/LinkedIn-Connect-0d0620?style=flat-square&logo=linkedin&logoColor=37d4e0" /></a>
+<a href="mailto:sangodeanjali97@gmail.com"><img src="https://img.shields.io/badge/Email-sangodeanjali97%40gmail.com-0d0620?style=flat-square&logo=gmail&logoColor=9d5cff" /></a>
 
 </div>
 
----
+<img src="assets/trace-divider.svg" width="100%"/>
 
-# 🌸 About Me
+<sub><code>// about.md</code></sub>
 
-- 💻 Embedded Firmware Engineer
-- ⚡ Working with ESP32, Nordic, STM32 & Zephyr RTOS
-- 📡 IoT | Wi-Fi | BLE | MQTT | Embedded Linux
-- 🔧 C | C++ | Python
-- 🧩 Passionate about firmware development, debugging and system design
-- 🌱 Currently exploring advanced embedded architectures
+## About
 
----
+I'm an embedded firmware engineer in Pune, currently at **Embel Technologies**, and most of my working hours split between two boards: an ESP32 running a heavily customized WLED fork, and an nRF52832 talking to a Nordic SoftDevice.
 
-# 🚀 Tech Stack
+Right now that means migrating the **WLED Smart Lighting System** from WLED v0.13.3 to v0.16.0 — tracing regressions across MQTT, the audio-reactive pipeline, and OTA, one commit at a time. Before that: BLE-configured sanitization units, an NB-IoT meter reader, and an ESP32 soil sensor logging quietly to an FTP server over an unreliable network.
 
-<p align="center">
+I like firmware because the bugs are honest — a missing `volatile`, a wrong macro, a byte dropped mid-stream. Find it, fix it, watch the board behave correctly. That loop is more or less why I got into electronics.
 
-<img src="https://skillicons.dev/icons?i=c,cpp,python,git,github,linux,vscode"/>
+<img src="assets/trace-divider.svg" width="100%"/>
 
-</p>
+<sub><code>// stack.md</code></sub>
 
-<p align="center">
+## Stack
 
-<img src="https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/STM32-03234B?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Zephyr-7340FF?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/PlatformIO-FF6C37?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/FreeRTOS-6DB33F?style=for-the-badge"/>
+<img src="assets/stack-panel.svg" width="100%"/>
 
-</p>
+<img src="assets/trace-divider.svg" width="100%"/>
 
----
+<sub><code>// building.md</code></sub>
 
-# 📊 GitHub Analytics
+## Currently Building
 
-<p align="center">
+**WLED Smart Lighting — WLED v0.13.3 → v0.16.0**
+A commercial ESP32 firmware migration: moving a deeply customized codebase onto a modern WLED base without losing any of the custom behavior.
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=20Anjali&show_icons=true&theme=tokyonight&hide_border=true"/>
+```
+[AUDIO]  Traced 4 breaks between the old Atuline SR-fork and the v0.16.0
+         usermod architecture — build flags, gain defaults, AGC timing.
+[MQTT]   Fixed a self-subscription feedback loop and a /seg/N handler
+         bug (deserializeState() vs deserializeSegment()).
+[JSON]   Chased down a self-referencing DynamicJsonDocument stack overflow.
+[MUSIC]  Mic-toggle logic that snapshots/restores LED state and force-
+         switches into an audio-reactive effect.
+[CONFIG] Ported the VERSION/vid system so legacy configs migrate safely
+         instead of silently breaking.
+```
 
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=20Anjali&layout=compact&theme=tokyonight&hide_border=true"/>
+<img src="assets/trace-divider.svg" width="100%"/>
 
-</p>
+<sub><code>// projects.md</code></sub>
 
----
+## Projects
 
-# 🔥 GitHub Streak
+**Smart Lighting Firmware — WLED** · `ESP32` `MQTT` `OTA` `Audio-Reactive`
+Migrated a heavily customized WLED-based smart lighting product to a modern firmware base, resolving MQTT control regressions, audio-reactive issues, and OTA flow changes.
 
-<p align="center">
+**Irradiation Soil Sensor** · `ESP32` `CSV` `FTP`
+Acquires soil sensor data, generates CSV logs, compresses them into ZIP files, and uploads to an FTP server with reliable backup handling for network failures.
 
-<img src="https://streak-stats.demolab.com?user=20Anjali&theme=tokyonight&hide_border=true"/>
+**UV Rakshak Sanitization** · `ESP32` `BLE` `PIR`
+BLE-enabled firmware for wireless parameter configuration, integrating PIR and microwave sensors to run safe, automated sanitization cycles.
 
-</p>
+**IoT Automatic Meter Reading** · `nRF52832` `NB-IoT` `BLE`
+Firmware for an automatic meter-reading device — BLE configuration interface, plus a JSON payload design for reliable cloud data transmission.
 
----
+<img src="assets/trace-divider.svg" width="100%"/>
 
-# 📈 Contribution Graph
+<sub><code>// stats.md</code></sub>
 
-<p align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=20Anjali&theme=tokyo-night"/>
-
-</p>
-
----
-
-# 🏆 GitHub Trophies
-
-<p align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=20Anjali&theme=tokyonight&margin-w=10&no-frame=true"/>
-
-</p>
-
----
-
-# 📂 Featured Projects
-
-| Project | Description |
-|---------|-------------|
-| 🌸 WLED Migration | Migrated firmware from WLED 0.13.3 to WLED 16 |
-| 📡 ESP32 IoT | Wi-Fi, MQTT, OTA and Web UI |
-| ⚡ Zephyr Projects | RTOS, Drivers and Embedded Applications |
-| 🔧 STM32 Firmware | HAL, UART, SPI, I2C |
-| 🌐 Embedded Linux | Driver & Application Development |
-
----
-
-# 💜 Connect With Me
-
-<p align="center">
-
-<a href="https://github.com/20Anjali">
-<img src="https://skillicons.dev/icons?i=github"/>
-</a>
-
-<a href="https://www.linkedin.com/in/anjali-sangode-620766168/">
-<img src="https://skillicons.dev/icons?i=linkedin"/>
-</a>
-
-</p>
-
----
+## Stats
 
 <div align="center">
-
-## ✨ Favorite Quote
-
-> *"Turning ideas into reliable embedded solutions."*
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=9F7AEA&height=120&section=footer"/>
-
+<img src="https://github-readme-stats.vercel.app/api?username=20Anjali&show_icons=true&theme=transparent&hide_border=true&title_color=9d5cff&icon_color=37d4e0&text_color=e7e2f5&bg_color=00000000" height="160"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=20Anjali&theme=transparent&hide_border=true&background=00000000&ring=9d5cff&fire=ffb454&currStreakLabel=37d4e0&sideLabels=e7e2f5&currStreakNum=e7e2f5&sideNums=e7e2f5&dates=e7e2f580" height="160"/>
 </div>
-</div>
+
+<img src="assets/trace-divider.svg" width="100%"/>
+
+<sub><code>// timeline.md</code></sub>
+
+## Timeline
+
+```
+2020   BE, Electronics Engineering — K.D.K. College of Engineering, Nagpur
+2023   PG Diploma, HPC Application Programming — CDAC ACTS, Pune
+2024   Diploma, Embedded Systems — Envision Computer Training Institute, Pune
+2025   Embedded Firmware Developer — Embel Technologies, Pune
+ now   Leading the WLED v0.13.3 → v0.16.0 firmware migration
+```
+
+**Next:** FreeRTOS internals · embedded Linux · Zephyr / Matter for connected lighting
+
+<img src="assets/footer-chip.svg" width="100%"/>
+
