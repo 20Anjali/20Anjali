@@ -93,7 +93,7 @@ Firmware for an automatic meter-reading device — BLE configuration interface, 
 2023   PG Diploma, HPC Application Programming — CDAC ACTS, Pune
 2024   Diploma, Embedded Systems — Envision Computer Training Institute, Pune
 2025   Embedded Firmware Developer — Embel Technologies, Pune
- now   Leading the Bosso WLED v0.13.3 → v0.16.0 firmware migration
+ now   Leading the WLED v0.13.3 → v0.16.0 firmware migration
 ```
 
 **Next:** FreeRTOS internals · embedded Linux · Zephyr / Matter for connected lighting
