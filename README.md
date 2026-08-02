@@ -90,7 +90,7 @@
 
 | Project | Description |
 |---------|-------------|
-| 🌸 WLED Migration | Migrated Bosso firmware from WLED 0.13.3 to WLED 16 |
+| 🌸 WLED Migration | Migrated firmware from WLED 0.13.3 to WLED 16 |
 | 📡 ESP32 IoT | Wi-Fi, MQTT, OTA and Web UI |
 | ⚡ Zephyr Projects | RTOS, Drivers and Embedded Applications |
 | 🔧 STM32 Firmware | HAL, UART, SPI, I2C |
