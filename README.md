@@ -14,7 +14,7 @@
 
 <img src="assets/trace-divider.svg" width="100%"/>
 
-```<sub><code>// about.md</code></sub>```
+<sub><code>// about.md</code></sub>
 
 ## About
 
@@ -26,7 +26,7 @@ I like firmware because the bugs are honest — a missing `volatile`, a wrong ma
 
 <img src="assets/trace-divider.svg" width="100%"/>
 
-```<sub><code>// stack.md</code></sub>```
+<sub><code>// stack.md</code></sub>
 
 ## Stack
 
@@ -34,7 +34,7 @@ I like firmware because the bugs are honest — a missing `volatile`, a wrong ma
 
 <img src="assets/trace-divider.svg" width="100%"/>
 
-```<sub><code>// building.md</code></sub>```
+<sub><code>// building.md</code></sub>
 
 ## Currently Building
 
@@ -55,7 +55,7 @@ A commercial ESP32 firmware migration: moving a deeply customized codebase onto 
 
 <img src="assets/trace-divider.svg" width="100%"/>
 
-```<sub><code>// projects.md</code></sub>```
+<sub><code>// projects.md</code></sub>
 
 ## Projects
 
@@ -73,7 +73,7 @@ Firmware for an automatic meter-reading device — BLE configuration interface, 
 
 <img src="assets/trace-divider.svg" width="100%"/>
 
-```<sub><code>// stats.md</code></sub>```
+<sub><code>// stats.md</code></sub>
 
 ## Stats
 
@@ -84,7 +84,7 @@ Firmware for an automatic meter-reading device — BLE configuration interface, 
 
 <img src="assets/trace-divider.svg" width="100%"/>
 
-```<sub><code>// timeline.md</code></sub>```
+<sub><code>// timeline.md</code></sub>
 
 ## Timeline
 
