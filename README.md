@@ -20,7 +20,7 @@
 
 I'm an embedded firmware engineer in Pune, currently at **Embel Technologies**, and most of my working hours split between two boards: an ESP32 running a heavily customized WLED fork, and an nRF52832 talking to a Nordic SoftDevice.
 
-Right now that means migrating the **WLED Smart Lighting System** from WLED v0.13.3 to v0.16.0 — tracing regressions across MQTT, the audio-reactive pipeline, and OTA, one commit at a time. Before that: BLE-configured sanitization units, an NB-IoT meter reader, and an ESP32 soil sensor logging quietly to an FTP server over an unreliable network.
+Right now that means migrating the **Bosso Smart Lighting System** from WLED v0.13.3 to v0.16.0 — tracing regressions across MQTT, the audio-reactive pipeline, and OTA, one commit at a time. Before that: BLE-configured sanitization units, an NB-IoT meter reader, and an ESP32 soil sensor logging quietly to an FTP server over an unreliable network.
 
 I like firmware because the bugs are honest — a missing `volatile`, a wrong macro, a byte dropped mid-stream. Find it, fix it, watch the board behave correctly. That loop is more or less why I got into electronics.
 
@@ -38,7 +38,7 @@ I like firmware because the bugs are honest — a missing `volatile`, a wrong ma
 
 ## Currently Building
 
-**WLED Smart Lighting — WLED v0.13.3 → v0.16.0**
+**Bosso Smart Lighting — WLED v0.13.3 → v0.16.0**
 A commercial ESP32 firmware migration: moving a deeply customized codebase onto a modern WLED base without losing any of the custom behavior.
 
 ```
@@ -93,7 +93,7 @@ Firmware for an automatic meter-reading device — BLE configuration interface, 
 2023   PG Diploma, HPC Application Programming — CDAC ACTS, Pune
 2024   Diploma, Embedded Systems — Envision Computer Training Institute, Pune
 2025   Embedded Firmware Developer — Embel Technologies, Pune
- now   Leading the WLED v0.13.3 → v0.16.0 firmware migration
+ now   Leading the Bosso WLED v0.13.3 → v0.16.0 firmware migration
 ```
 
 **Next:** FreeRTOS internals · embedded Linux · Zephyr / Matter for connected lighting
